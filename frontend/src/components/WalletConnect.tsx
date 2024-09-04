@@ -22,8 +22,6 @@ const WalletConnect: React.FC = () => {
                     connector.onStatusChange(callback)
                 },
             },
-            referralCode: 123123123,
-            cacheFor: 2,
         })
     }, [address,])
 
